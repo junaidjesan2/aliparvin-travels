@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
 }
+.btn-more{
+  border-radius: 8px;
+            background-color: #ff5400;
+            color: #fff;
+            width: 174px;
+            height: 52px;
+            border: none;
+            font-weight: bold;
+}
 header {
   display: flex;
   align-items: center;
