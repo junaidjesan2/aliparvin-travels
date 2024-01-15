@@ -5,12 +5,28 @@
 header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 1170px;
+  margin: auto;
 }
 header li {
   margin-right: 44px;
   list-style-type: none;
+}
+header a {
   text-decoration: none;
+}
+
+#banner {
+  background-image:linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  ), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  margin: 49px auto;
 }
 
 .planning {
@@ -29,7 +45,11 @@ header li {
   width: 174px;
   border-radius: 8px;
   background: #ff5400;
+  color: #fff;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
