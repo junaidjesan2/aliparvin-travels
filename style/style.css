@@ -1,7 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+
 .btn-more{
   border-radius: 8px;
             background-color: #ff5400;
@@ -87,6 +84,9 @@ footer h4 {
   color: #5a5a5d;
 } */
 @media only screen and (max-width:550px) {
+  header{
+    width: 375px;
+  }
   #logo-name{
     font-size: 21px;
   }
@@ -101,9 +101,22 @@ footer h4 {
     visibility: visible;
     color: black;
   }
+  #banner{
+    width: 335px;
+    height: 483px;
+    margin: 0 auto;
+  }
+  #plan-selection{
+    width: 287px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+    align-items: center;
+  }
   #popular-tour{  
    flex-direction: column;
    margin: 0 auto;
+   width: 375px;
   }
   #popular-tour-image{
     margin-left:0;
