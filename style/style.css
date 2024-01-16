@@ -1,14 +1,13 @@
-
-.btn-more{
+.btn-more {
   border-radius: 8px;
-            background-color: #ff5400;
-            color: #fff;
-            width: 174px;
-            height: 52px;
-            border: none;
-            font-weight: bold;
+  background-color: #ff5400;
+  color: #fff;
+  width: 174px;
+  height: 52px;
+  border: none;
+  font-weight: bold;
 }
-#menu-icon{
+#menu-icon {
   visibility: hidden;
 }
 header {
@@ -38,6 +37,35 @@ header a {
   height: 500px;
   border-radius: 16px;
   margin: 49px auto;
+}
+#card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+  width: 1410px;
+}
+.card1 {
+  width: calc(573px - 32px);
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background-color: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+}
+.card2 {
+  width: calc(573px - 32px);
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 32px;
+}
+.card3 {
+  width: calc(573px - 32px);
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 32px;
 }
 
 .planning {
@@ -83,72 +111,73 @@ footer hr {
 footer h4 {
   color: #5a5a5d;
 } */
-@media only screen and (max-width:550px) {
-  header{
+@media only screen and (max-width: 550px) {
+  header {
     width: 375px;
   }
-  #logo-name{
+  #logo-name {
     font-size: 21px;
   }
-  #logo{
+  #logo {
     height: 33px;
     width: 28px;
   }
-  #pages{
+  #pages {
     visibility: hidden;
   }
-  #menu-icon{
+  #menu-icon {
     visibility: visible;
     color: black;
   }
-  #banner{
+  #banner {
     width: 335px;
     height: 483px;
     margin: 0 auto;
   }
-  #plan-selection{
+  #plan-selection {
     width: 287px;
     flex-direction: column;
     gap: 10px;
     padding: 16px;
     align-items: center;
   }
-  #popular-tour{  
-   flex-direction: column;
-   margin: 0 auto;
-   width: 375px;
+  #popular-tour {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 375px;
   }
-  #popular-tour-image{
-    margin-left:0;
-            height: 342px;
-            width: 335px;
-            border-radius: 16px;
-            margin-left: 0px;
+  #popular-tour-image {
+    margin-left: 0;
+    height: 342px;
+    width: 335px;
+    border-radius: 16px;
+    margin-left: 0px;
   }
-  #popular-tour-text{
+  #popular-tour-text {
     width: 335px;
     margin-bottom: 20px;
   }
-  #perfect-plan{
+  #perfect-plan {
     flex-direction: column;
     gap: 20px;
   }
-  #newsletter{
+  #newsletter {
     flex-direction: column;
   }
-  #discount-image{
-    width: 335px; margin: 0 auto;
+  #discount-image {
+    width: 335px;
+    margin: 0 auto;
   }
-  #discount-image-text{
+  #discount-image-text {
     width: 214px;
-            height: 79px;
-            color: #fff;
-            background-color: #ff5400;
-            border-radius: 16px;
-            position: relative;
-            bottom: 0;
-            transform: rotate(-19.628deg);
-            bottom: -250px;
-            left: -1535px;
+    height: 79px;
+    color: #fff;
+    background-color: #ff5400;
+    border-radius: 16px;
+    position: relative;
+    bottom: 0;
+    transform: rotate(-19.628deg);
+    bottom: -250px;
+    left: -1535px;
   }
 }
