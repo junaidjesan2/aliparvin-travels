@@ -40,7 +40,7 @@ header a {
 }
 #destination {
   justify-content: center;
-  width: 1410px;
+  width: 1170px;
   margin: 0 auto;
 }
 #destination1 {
@@ -177,7 +177,7 @@ footer hr {
 footer h4 {
   color: #5a5a5d;
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   header {
     width: 375px;
   }
