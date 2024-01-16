@@ -11,12 +11,16 @@
             border: none;
             font-weight: bold;
 }
+#menu-icon{
+  visibility: hidden;
+}
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 1170px;
   margin: auto;
+  padding: 0 20px;
 }
 header li {
   margin-right: 44px;
@@ -68,7 +72,7 @@ header a {
   background-image: url("../Images/Rectangle\ 8\ \(1\).png");
   background-repeat: no-repeat;
 }
-footer {
+/* footer {
   background-color: rgba(19, 19, 24, 0.05);
   text-align: center;
   height: 292px;
@@ -81,4 +85,57 @@ footer hr {
 }
 footer h4 {
   color: #5a5a5d;
+} */
+@media only screen and (max-width:550px) {
+  #logo-name{
+    font-size: 21px;
+  }
+  #logo{
+    height: 33px;
+    width: 28px;
+  }
+  #pages{
+    visibility: hidden;
+  }
+  #menu-icon{
+    visibility: visible;
+    color: black;
+  }
+  #popular-tour{  
+   flex-direction: column;
+   margin: 0 auto;
+  }
+  #popular-tour-image{
+    margin-left:0;
+            height: 342px;
+            width: 335px;
+            border-radius: 16px;
+            margin-left: 0px;
+  }
+  #popular-tour-text{
+    width: 335px;
+    margin-bottom: 20px;
+  }
+  #perfect-plan{
+    flex-direction: column;
+    gap: 20px;
+  }
+  #newsletter{
+    flex-direction: column;
+  }
+  #discount-image{
+    width: 335px; margin: 0 auto;
+  }
+  #discount-image-text{
+    width: 214px;
+            height: 79px;
+            color: #fff;
+            background-color: #ff5400;
+            border-radius: 16px;
+            position: relative;
+            bottom: 0;
+            transform: rotate(-19.628deg);
+            bottom: -250px;
+            left: -1535px;
+  }
 }
